@@ -77,3 +77,32 @@ section div div h1 span{
 .blk{
     color: rgb(1, 0, 11);
 }
+
+.titulo2{
+    text-align: center; 
+    background-color: rgb(97, 221, 142);
+    width: 40vh; 
+    margin: 0 auto;
+    padding: 11px; 
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center; 
+    background-color: rgb(97, 221, 142);
+    width: 65vh; 
+    padding: 11px; 
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 500px){
+    .titulo{
+        text-align: center; 
+        background-color: rgb(97, 221, 142);
+        width: 50vh; 
+        margin: 0 auto;
+        padding: 11px; 
+        border-radius: 10px;
+    }
+}
+   
