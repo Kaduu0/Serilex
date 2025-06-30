@@ -116,10 +116,14 @@ section div div h1 span{
     .titulo{
         text-align: center; 
         background-color: rgb(97, 221, 142);
-        width: 50vh; 
+        width: 30vh; 
         margin: 0 auto;
         padding: 11px; 
         border-radius: 10px;
+    }
+
+    .tr{
+        font-size: 2rem;
     }
 }
 
