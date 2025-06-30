@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serilex</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -139,50 +140,47 @@
 
 <hr>
 
-<section class="section">
+<section class="section" id="contato">
   <div class="container">
     <h1 class="title blk mb-4 titulo">contacte nossos serviços</h1>
     <p class="subtitle blk mb-5">
         Caso queira contratar nossos serviços ou retirar dúvidas, sinta-se à vontade para entrar em contato conosco através do número de celular: (21) 99999-9999 ou com o formulário abaixo. Estamos aqui para ajudar e adoraríamos ouvir de você!
     </p>
 
-    <form action="#" method="post">
-      <!-- Nome -->
-      <div class="field">
-        <label class="label blk">Nome</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="Seu nome" name="nome" required>
+    <form id="formContato" action="#" method="post">
+        <!-- Nome -->
+        <div class="field">
+            <label class="label blk">Nome</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Seu nome" name="nome" required>
+            </div>
         </div>
-      </div>
 
-      <!-- E-mail -->
-      <div class="field">
-        <label class="label blk">E-mail</label>
-        <div class="control">
-          <input class="input" type="email" placeholder="seuemail@email.com" name="email" required>
-          <span class="icon is-small is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
+        <!-- E-mail -->
+        <div class="field">
+            <label class="label blk">E-mail</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="seuemail@email.com" name="email" required>
+            </div>
         </div>
-      </div>
 
-      <!-- Mensagem -->
-      <div class="field">
-        <label class="label blk">O que deseja?</label>
-        <div class="control">
-          <textarea class="textarea" placeholder="Escreva sua solicitação aqui..." name="mensagem" required></textarea>
+        <!-- Mensagem -->
+        <div class="field">
+            <label class="label blk">O que deseja?</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Escreva sua solicitação aqui..." name="mensagem" required></textarea>
+            </div>
         </div>
-      </div>
 
-      <!-- Botão -->
-      <div class="field is-grouped">
-        <div class="control">
-          <button class="button is-link" type="submit">Enviar</button>
+        <!-- Botão -->
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link" type="submit">Enviar</button>
+            </div>
+            <div class="control">
+                <button class="button is-light" type="button" id="btnLimpar">Limpar</button>
+            </div>
         </div>
-        <div class="control">
-          <button class="button is-light" type="reset">Limpar</button>
-        </div>
-      </div>
     </form>
 
   </div>
@@ -193,6 +191,8 @@
     <p class="blk">
       <strong class="blk">Serilex</strong>
         &copy; 2025. Todos os direitos reservados.
+        <br><br>
+        tudo acima é fictício, criado para fins de demonstração e aprendizado.
     </p>
   </div>
 </footer>
